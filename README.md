@@ -53,19 +53,27 @@ lib/
 - **Cubit (Bloc)** – State management
 - **GoRouter** – Declarative routing
 - **GetIt** – Dependency injection
+- **Injectable** – Code generation for GetIt
 - **Equatable** – Value-based equality
+- **Just Audio** – Audio playback
+- **Audio Session** – Audio focus/session management
+- **HTTP** – API requests and network handling
+- **ScreenUtil** – Responsive layout adaptation
 
 ### 📦 Notable Dependencies
 
-| Package                   | Purpose                                |
-|---------------------------|----------------------------------------|
-| `flutter_bloc`            | State management using Cubit/BLoC      |
-| `go_router`               | Declarative navigation                 |
-| `get_it`                  | Service locator (dependency injection) |
-| `equatable`               | Simplifies equality logic              |
-| `just_audio`              | Audio playback                         |
-| `cached_network_image`    | Efficient image loading & caching      |
-| `flutter_svg`             | SVG support                            |
+| Package                | Purpose                                         |
+|------------------------|-------------------------------------------------|
+| `flutter_bloc`         | State management using Cubit/BLoC               |
+| `go_router`            | Declarative navigation                          |
+| `get_it`               | Service locator (dependency injection)          |
+| `equatable`            | Simplifies equality logic                       |
+| `just_audio`           | Audio playback                                  |
+| `injectable`           | Dependency injection annotations for GetIt      |
+| `audio_session`        | Manages audio focus and session with just_audio |
+| `http`                 | For making HTTP requests                        |
+| `flutter_screenutil`   | Responsive UI across screen sizes               |
+
 
 > ℹ️ Full list available in [`pubspec.yaml`](./pubspec.yaml)
 
@@ -73,9 +81,9 @@ lib/
 
 ## 🖼️ Screenshots
 
-|                  Start                   |                    Explore                     |                Now Playing                 |
-|:----------------------------------------:|:----------------------------------------------:|:------------------------------------------:|
-| ![Explore](assets/screenshots/start.png) | ![Now Playing](assets/screenshots/explore.png) | ![Profile](assets/screenshots/now_playing.png) |
+|                 Start                  |                  Explore                   |                Now Playing                 |
+|:--------------------------------------:|:------------------------------------------:|:------------------------------------------:|
+| ![Start](assets/screenshots/start.png) | ![Explore](assets/screenshots/explore.png) | ![Now Playing](assets/screenshots/now_playing.png) |
 
 ---
 
